@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -22,4 +23,33 @@ header{
 header .interface{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 40px;
+}
+
+header .menuDesktop nav ul {
+    list-style-type: none;
+}
+
+header .menuDesktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menuDesktop nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .btn_contato button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
 }
