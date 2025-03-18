@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 .interface{
@@ -14,10 +14,22 @@ body{
     margin: 0 auto;
 }
 
+header .btn_contato button, .heroSite button{
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 /*estilo da header*/
 header{
     width: 100%;
     padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface{
@@ -42,14 +54,65 @@ header .menuDesktop nav ul li {
 header .menuDesktop nav ul li a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.menuDesktop nav a:hover{
+ transform: scale(1.05);   
 }
 
 header .btn_contato button{
     width: 140px;
     height: 50px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 1px solid white;
+}
+
+header .btn_contato button:hover, .heroSite button:hover {
+    background-color: white;
+    color: #000;
+}
+
+/* Estilo intro do site */
+
+section.heroSite {
+    height: 98vh;
+    background-image: url(/images/bg-inicio-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
-    cursor: pointer;
+
+}
+
+.heroSite .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.heroSite .txtHero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.heroSite .txtHero h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.heroSite .txtHero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.heroSite .txtHero p span {
+    display: block;
+}
+
+.heroSite button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
 }
