@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #e3e3e3;
 }
 
 .interface{
@@ -116,3 +116,32 @@ section.heroSite {
     height: 60px;
     font-size: 20px;
 }
+
+/* Estilo das vantagens */
+section.vantagens {
+    padding: 80px 0;
+}
+
+.vantagens .itensContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.vantagens .itensContainer .imgItens img {
+    max-width: 480px;
+}
+
+.vantagens .itensContainer .txtItens h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.itensContainer .txtItens h3 span{
+    font-weight: 300;
+    
+}
+
