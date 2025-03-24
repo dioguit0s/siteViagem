@@ -14,13 +14,18 @@ body{
     margin: 0 auto;
 }
 
-header .btn_contato button, .heroSite button{
+header .btn_contato button, .heroSite button, .hoteis button{
     font-size: 18px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
     cursor: pointer;
     transition: 0.5s;
+}
+
+header .btn_contato button:hover, .heroSite button:hover, .hoteis button:hover {
+    background-color: white;
+    color: #000;
 }
 
 /*estilo da header*/
@@ -67,10 +72,7 @@ header .btn_contato button{
     height: 50px;
 }
 
-header .btn_contato button:hover, .heroSite button:hover {
-    background-color: white;
-    color: #000;
-}
+
 
 /* Estilo intro do site */
 
@@ -202,3 +204,65 @@ section.contato{
 .contato .iconsContato button:hover i,.contato .iconsContato button:hover p {
     color: white;
 }
+
+/* Estilo sa sessão hotéis */
+section.hoteis{
+    height: 600px;
+    background-image: url(/images/hotel-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+    color: #ffff;
+    text-align: center;
+}
+
+.hoteis > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000b7;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hoteis > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.hoteis h3 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 200;
+    
+}
+
+.hoteis h3 span {
+    display: block;
+    font-weight: 600;
+}
+
+.hoteis p {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hoteis button {
+    width: 220px;
+    height: 60px;
+}
+
+
+
+
+
