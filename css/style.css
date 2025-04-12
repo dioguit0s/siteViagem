@@ -7,6 +7,7 @@
 
 body{
     background-color: #e3e3e3;
+ 
 }
 
 .interface{
@@ -262,7 +263,61 @@ section.hoteis{
     height: 60px;
 }
 
+/* Estilo da secao como funciona*/
 
+section.comoFunciona {
+    padding: 80px 0;
+    
+}
 
+.txtFunciona, .instrucoes {
+    display:inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
 
+.comoFunciona .txtFunciona {
+    position: sticky;
+    top: 50%;
+    padding: 35px;
+}
+
+.comoFunciona .txtFunciona h3 {
+    font-size: 4em;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+.comoFunciona .txtFunciona h3 span {
+    display: block;
+    font-weight: 700;
+}
+
+.instrucoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+.instrucoes .instru-box img {
+    max-width: 100px;
+}
+
+.instrucoes .instru-box h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.instrucoes .instru-box h4 span {
+    font-weight: 300;
+}
+
+.instrucoes .instru-box p {
+    line-height: 20px;
+}
 
