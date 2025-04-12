@@ -205,7 +205,7 @@ header .btn_contato button{
 
 section.heroSite {
     height: 98vh;
-    background-image: url(./images/bg-inicio-site.jpg);
+    background-image: url(images/bg-inicio-site.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -335,7 +335,7 @@ section.contato{
 /* Estilo da sessão hotéis */
 section.hoteis{
     height: 600px;
-    background-image: url(./images/hotel-bg.jpg);
+    background-image: url(images/hotel-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
