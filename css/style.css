@@ -13,6 +13,7 @@ body{
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 4%;
 }
 
 header .btn_contato button, .heroSite button, .hoteis button{
@@ -244,7 +245,7 @@ section.contato{
     color: white;
 }
 
-/* Estilo sa sessão hotéis */
+/* Estilo da sessão hotéis */
 section.hoteis{
     height: 600px;
     background-image: url(/images/hotel-bg.jpg);
@@ -318,7 +319,7 @@ section.comoFunciona {
 .comoFunciona .txtFunciona {
     position: sticky;
     top: 50%;
-    padding: 35px;
+    padding-bottom: 35px;
 }
 
 .comoFunciona .txtFunciona h3 {

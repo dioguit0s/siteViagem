@@ -1,0 +1,115 @@
+@media screen and (max-width: 900px) {
+   header .menuDesktop, header .btn_contato {
+    display: none;
+   }
+}
+
+@media screen and (max-width: 878px) {
+    /*Responsivo HeroSite*/
+    .heroSite .txtHero h1{
+        font-size: 2.6em;
+        line-height: 45px;
+        font-weight: 200;
+    }
+    
+    .heroSite .txtHero h1 span {
+        display: block;
+        font-weight: 800;
+    }
+    
+    .heroSite .txtHero p {
+        font-size: 14px;
+    }
+    
+    .heroSite .txtHero p span {
+        display: inline;
+    }
+    
+    .heroSite button {
+        font-size: 18px;
+    }
+
+    /* Responsivo das vantagens */
+
+    .vantagens .itensContainer {
+        flex-direction: column;
+    }
+
+    .vantagens .itensContainer .imgItens img {
+        width: 100%;
+    }
+
+    .vantagens .itensContainer .txtItens p {
+        margin-bottom: 20px;
+    }
+
+    .vantagens .itensContainer .item1 {
+        order: 1;
+    }
+    
+    .vantagens .itensContainer .item2 {
+        order: 0;
+    }
+
+    /*Estilo botões de contato*/
+    .txtContato, .iconsContato {
+        display: block;
+        width: 100%;
+    }
+
+    .contato .txtContato h3 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .contato .iconsContato button {
+        width: 100%;
+    }
+
+    .contato .txtContato p {
+        margin-bottom: 20px;
+    }
+
+    /* Estilo da sessão hotéis */
+   
+    .hoteis h3 {
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+    
+    .hoteis p {
+        margin: 16px 0;
+        font-size: 20px;
+    }
+
+    /* Estilo da secao como funciona*/
+    .txtFunciona, .instrucoes {
+        display:block;
+        width: 100%;
+    }
+
+    .comoFunciona .txtFunciona {
+        position: static;
+    }
+
+    .comoFunciona .txtFunciona h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Estilo do rodapé*/
+    footer .middleFooter a {
+        display: block;
+        margin: 15px 0;
+    }
+
+    footer .bottomFooter p{
+        font-size: 14px;
+    }
+
+}
