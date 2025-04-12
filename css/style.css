@@ -36,6 +36,8 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    transition: 0.5s;
+    z-index: 10;
 }
 
 header .interface{
@@ -47,6 +49,42 @@ header .interface{
 header .logo img{
     max-width: 40px;
 }
+
+/*Estilo menu dinamico*/
+
+header .logo img.logoPreta {
+    display: none;
+}
+
+header.rolar{
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #00000061;
+}
+
+header.rolar .menuDesktop nav ul li a {
+    color: black;
+}
+
+header.rolar .btn_contato button {
+    border: 1px solid black;
+    color: black;
+}
+
+header.rolar .btn_contato button:hover {
+    background-color: black;
+    color: white;
+}
+
+header.rolar .logo .logoBranca {
+    display: none;
+}
+
+header.rolar .logo .logoPreta {
+    display: block;
+}
+/*------------------------------------*/
+
 
 header .menuDesktop nav ul {
     list-style-type: none;
