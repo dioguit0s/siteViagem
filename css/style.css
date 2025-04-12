@@ -51,6 +51,39 @@ header .logo img{
     max-width: 40px;
 }
 
+/* estilo do botao menu mobile */
+header .btnMenuMobile {
+    display: none;
+}
+
+header .btnMenuMobile div {
+    background-color: white;
+    height: 3px;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+header .btnMenuMobile .lineMenuMob1 {
+    width: 30px;
+}
+
+header .btnMenuMobile .lineMenuMob2 {
+    width: 20px;
+}
+
+header.rolar .btnMenuMobile div {
+    background-color: black;
+}
+
+header .btnMenuMobile .lineMenuMob1.ativo1 {
+    transform: rotate(45deg) translate(30%);
+}
+
+header .btnMenuMobile .lineMenuMob2.ativo2 {
+    transform: rotate(-45deg) translate(30%);
+    width: 30px;
+}
+
 /*Estilo menu dinamico*/
 
 header .logo img.logoPreta {
