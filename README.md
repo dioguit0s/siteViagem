@@ -58,5 +58,3 @@ Este é um projeto pessoal desenvolvido para fins de portfólio. No entanto, sug
 ---
 
 Desenvolvido por [dioguit0s](https://github.com/dioguit0s)
-```
-
